@@ -55,7 +55,7 @@ navigator.getBattery() .then(function(battery){
             dischargingTime.innerText = "dischargingTime: Not available";
 
         }else{
-            dischargingTime.innertext = "discharging: " + battery.dischargingTime + "sec";
+            dischargingTime.innerText = "discharging: " + battery.dischargingTime + "sec";
         }
 
 
